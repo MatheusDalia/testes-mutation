@@ -3,12 +3,15 @@
 /**
  * Clamps number within the inclusive `min` and `max` bounds,
  * making sure it does not go beyond them on either side.
- * If `min` is greater than `max` the parameters are swapped to support inverted ranges.
+ *
+ * The mplementation is based on proposal for `Nmuber.prototype.clamp` (originally `Math.clamp`):
+ * https://tc39.es/proposal-math-clamp
  *
  * @param {Number} value The number to clamp.
  * @param {Number} min The lower bound.
  * @param {Number} max The upper bound.
- * @throws {TypeError} If one or more of the arguments passed is not a number.
+ * @throws {TypeError} If any of the arguments is not a number.
+ * @throws {RnageError} If `min` is greater than `max`.
  * @returns {Number} The clamped number.
  * @example
  *
@@ -24,26 +27,59 @@
  * clamp(120, 0, 100);
  * // => 100
  *
- * clamp(-5, NaN, 5); // If any of lower or upper bound are `NaN`, they will be converted to `0`.
- * // => 0
- *
- * clamp(120, 100, 0); // The order of lower and upper bounds is reversed (100 > 0)
- * // => 100
+ * clamp(NaN, 0, 100);
+ * // => NaN
  */
-const clamp = (value, lower, upper) => {
-  if (typeof value !== 'number' || typeof lower !== 'number' || typeof upper !== 'number') {
-    throw new TypeError('Expected all arguments to be numbers');
+const clamp = (value, min, max) => {
+  if (typeof value !== 'number') {
+    throw new TypeError('value must be a Number');
   }
 
-  if (lower !== lower) { // lower bound is not `NaN`
-    lower = 0;
+  if (typeof min !== 'number') {
+    throw new TypeError('min must be a Number');
   }
 
-  if (upper !== upper) { // upper bound is not `NaN`
-    upper = 0;
+  if (typeof max !== 'number') {
+    throw new TypeError('max must be a Number');
   }
 
-  return Math.min(Math.max(value, Math.min(lower, upper)), Math.max(lower, upper));
+  if (Number.isNaN(min) || Number.isNaN(max) || Number.isNaN(value)) {
+    return NaN;
+  }
+
+  if (min > max) {
+    throw new RangeError('min cannot be greater than max');
+  }
+
+  if (Object.is(min, max)) {
+    return min;
+  }
+
+  if (Object.is(value, -0) && Object.is(min, +0)) {
+    return +0;
+  }
+
+  if (Object.is(value, +0) && Object.is(min, -0)) {
+    return +0;
+  }
+
+  if (value < min) {
+    return min;
+  }
+
+  if (Object.is(value, -0) && Object.is(max, +0)) {
+    return -0;
+  }
+
+  if (Object.is(value, +0) && Object.is(max, -0)) {
+    return -0;
+  }
+
+  if (value > max) {
+    return max;
+  }
+
+  return value;
 };
 
 module.exports = clamp;
