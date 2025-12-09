@@ -6,3 +6,5 @@ tests-reporter/
 dist/
 demo.html
 coverage/
+# stryker temp files
+.stryker-tmp
