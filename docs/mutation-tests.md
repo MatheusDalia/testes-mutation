@@ -65,7 +65,7 @@ To reduce the report size and focus on surviving mutants, run the shared summary
 **From the project directory:**
 
 ```bash
-node ../generate-summary.js ./reports/mutation/mutation.json ./reports/mutation/mutation-summary.json
+node ../generate-summary.js ./reports/mutation/mutation.json ../reports/<project-name>.json
 ```
 
 ### Arguments:
