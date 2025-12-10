@@ -1,0 +1,1722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1763559275775" clover="3.2.0">
+  <project timestamp="1763559275776" name="All files">
+    <metrics statements="960" coveredstatements="959" conditionals="724" coveredconditionals="696" methods="181" coveredmethods="180" elements="1865" coveredelements="1835" complexity="0" loc="960" ncloc="960" packages="126" files="126" classes="126"/>
+    <package name="array.chunk">
+      <metrics statements="20" coveredstatements="20" conditionals="13" coveredconditionals="12" methods="1" coveredmethods="1"/>
+      <file name="chunk.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/chunk/chunk.js">
+        <metrics statements="20" coveredstatements="20" conditionals="13" coveredconditionals="12" methods="1" coveredmethods="1"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="38" count="9" type="cond" truecount="5" falsecount="0"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="42" count="5" type="stmt"/>
+        <line num="44" count="5" type="stmt"/>
+        <line num="46" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="50" count="4" type="stmt"/>
+        <line num="51" count="4" type="stmt"/>
+        <line num="52" count="4" type="stmt"/>
+        <line num="54" count="4" type="stmt"/>
+        <line num="55" count="9" type="stmt"/>
+        <line num="56" count="9" type="stmt"/>
+        <line num="59" count="4" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.compact">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="compact.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/compact/compact.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.diff">
+      <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="diff.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/diff/diff.js">
+        <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.drop">
+      <metrics statements="10" coveredstatements="10" conditionals="16" coveredconditionals="15" methods="1" coveredmethods="1"/>
+      <file name="drop.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/drop/drop.js">
+        <metrics statements="10" coveredstatements="10" conditionals="16" coveredconditionals="15" methods="1" coveredmethods="1"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="48" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="52" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="53" count="9" type="stmt"/>
+        <line num="55" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="62" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.dropRight">
+      <metrics statements="11" coveredstatements="11" conditionals="16" coveredconditionals="15" methods="1" coveredmethods="1"/>
+      <file name="dropRight.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/dropRight/dropRight.js">
+        <metrics statements="11" coveredstatements="11" conditionals="16" coveredconditionals="15" methods="1" coveredmethods="1"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="48" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="52" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="53" count="9" type="stmt"/>
+        <line num="55" count="9" type="cond" truecount="6" falsecount="0"/>
+        <line num="56" count="9" type="stmt"/>
+        <line num="58" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.dropRightWhile">
+      <metrics statements="11" coveredstatements="11" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <file name="dropRightWhile.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/dropRightWhile/dropRightWhile.js">
+        <metrics statements="11" coveredstatements="11" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="39" count="2" type="cond" truecount="3" falsecount="0"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.dropWhile">
+      <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="dropWhile.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/dropWhile/dropWhile.js">
+        <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="38" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.groupBy">
+      <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="groupBy.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/groupBy/groupBy.js">
+        <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
+        <line num="35" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="30" type="stmt"/>
+        <line num="38" count="30" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.insert">
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="insert.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/insert/insert.js">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="48" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="52" count="11" type="stmt"/>
+        <line num="54" count="11" type="stmt"/>
+        <line num="56" count="11" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.intersect">
+      <metrics statements="17" coveredstatements="17" conditionals="9" coveredconditionals="9" methods="3" coveredmethods="3"/>
+      <file name="intersect.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/intersect/intersect.js">
+        <metrics statements="17" coveredstatements="17" conditionals="9" coveredconditionals="9" methods="3" coveredmethods="3"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="12" type="stmt"/>
+        <line num="25" count="12" type="stmt"/>
+        <line num="26" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="31" count="8" type="stmt"/>
+        <line num="32" count="10" type="stmt"/>
+        <line num="33" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="23" type="stmt"/>
+        <line num="36" count="23" type="stmt"/>
+        <line num="38" count="23" type="stmt"/>
+        <line num="39" count="97" type="stmt"/>
+        <line num="41" count="97" type="cond" truecount="5" falsecount="0"/>
+        <line num="42" count="11" type="stmt"/>
+        <line num="45" count="86" type="stmt"/>
+        <line num="48" count="12" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.move">
+      <metrics statements="15" coveredstatements="15" conditionals="16" coveredconditionals="16" methods="1" coveredmethods="1"/>
+      <file name="move.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/move/move.js">
+        <metrics statements="15" coveredstatements="15" conditionals="16" coveredconditionals="16" methods="1" coveredmethods="1"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="33" count="11" type="cond" truecount="4" falsecount="0"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="37" count="9" type="stmt"/>
+        <line num="39" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="43" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="46" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="5" type="stmt"/>
+        <line num="49" count="5" type="stmt"/>
+        <line num="52" count="8" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.partition">
+      <metrics statements="12" coveredstatements="12" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
+      <file name="partition.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/partition/partition.js">
+        <metrics statements="12" coveredstatements="12" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
+        <line num="34" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="38" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="42" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="47" count="12" type="stmt"/>
+        <line num="48" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="4" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.pluck">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="pluck.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/pluck/pluck.js">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="34" count="20" type="stmt"/>
+        <line num="36" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="16" type="stmt"/>
+        <line num="41" count="5" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.remove">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="remove.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/remove/remove.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="40" count="70" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.shuffle">
+      <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="shuffle.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/shuffle/shuffle.js">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="16" type="stmt"/>
+        <line num="29" count="16" type="stmt"/>
+        <line num="31" count="16" type="stmt"/>
+        <line num="32" count="16" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.sort">
+      <metrics statements="7" coveredstatements="7" conditionals="11" coveredconditionals="10" methods="4" coveredmethods="4"/>
+      <file name="sort.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/sort/sort.js">
+        <metrics statements="7" coveredstatements="7" conditionals="11" coveredconditionals="10" methods="4" coveredmethods="4"/>
+        <line num="32" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="39" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="37" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="60" type="cond" truecount="3" falsecount="1"/>
+        <line num="42" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.sortBy">
+      <metrics statements="14" coveredstatements="14" conditionals="13" coveredconditionals="13" methods="4" coveredmethods="4"/>
+      <file name="sortBy.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/sortBy/sortBy.js">
+        <metrics statements="14" coveredstatements="14" conditionals="13" coveredconditionals="13" methods="4" coveredmethods="4"/>
+        <line num="34" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="39" count="78" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="8" type="stmt"/>
+        <line num="42" count="43" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="11" type="stmt"/>
+        <line num="46" count="32" type="stmt"/>
+        <line num="48" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="8" type="stmt"/>
+        <line num="52" count="39" type="stmt"/>
+        <line num="53" count="39" type="stmt"/>
+        <line num="55" count="39" type="cond" truecount="4" falsecount="0"/>
+        <line num="59" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.tail">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="tail.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/tail/tail.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.take">
+      <metrics statements="9" coveredstatements="9" conditionals="15" coveredconditionals="14" methods="1" coveredmethods="1"/>
+      <file name="take.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/take/take.js">
+        <metrics statements="9" coveredstatements="9" conditionals="15" coveredconditionals="14" methods="1" coveredmethods="1"/>
+        <line num="40" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="41" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="45" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="49" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="51" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.takeRight">
+      <metrics statements="11" coveredstatements="11" conditionals="15" coveredconditionals="14" methods="1" coveredmethods="1"/>
+      <file name="takeRight.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/takeRight/takeRight.js">
+        <metrics statements="11" coveredstatements="11" conditionals="15" coveredconditionals="14" methods="1" coveredmethods="1"/>
+        <line num="40" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="41" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="45" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="49" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="50" count="7" type="stmt"/>
+        <line num="52" count="7" type="cond" truecount="6" falsecount="0"/>
+        <line num="53" count="7" type="stmt"/>
+        <line num="55" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.takeRightWhile">
+      <metrics statements="11" coveredstatements="11" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <file name="takeRightWhile.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/takeRightWhile/takeRightWhile.js">
+        <metrics statements="11" coveredstatements="11" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="38" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.takeWhile">
+      <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="takeWhile.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/takeWhile/takeWhile.js">
+        <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="37" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.uniq">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="uniq.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/uniq/uniq.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.uniqBy">
+      <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <file name="uniqBy.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/uniqBy/uniqBy.js">
+        <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="38" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="41" count="16" type="stmt"/>
+        <line num="43" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="11" type="stmt"/>
+        <line num="47" count="15" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="array.zip">
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <file name="zip.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/array/zip/zip.js">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="31" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="9" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="dom.cookie">
+      <metrics statements="20" coveredstatements="20" conditionals="17" coveredconditionals="15" methods="4" coveredmethods="4"/>
+      <file name="cookie.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/dom/cookie/cookie.js">
+        <metrics statements="20" coveredstatements="20" conditionals="17" coveredconditionals="15" methods="4" coveredmethods="4"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="33" count="14" type="cond" truecount="4" falsecount="0"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="37" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="12" type="stmt"/>
+        <line num="41" count="12" type="stmt"/>
+        <line num="42" count="18" type="cond" truecount="1" falsecount="1"/>
+        <line num="43" count="18" type="stmt"/>
+        <line num="45" count="18" type="stmt"/>
+        <line num="47" count="18" type="cond" truecount="1" falsecount="1"/>
+        <line num="48" count="18" type="stmt"/>
+        <line num="53" count="12" type="stmt"/>
+        <line num="72" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="76" count="12" type="stmt"/>
+        <line num="80" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="96" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="97" count="1" type="stmt"/>
+        <line num="100" count="6" type="stmt"/>
+        <line num="105" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="dom.mediaQuery">
+      <metrics statements="13" coveredstatements="13" conditionals="7" coveredconditionals="7" methods="3" coveredmethods="2"/>
+      <file name="mediaQuery.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/dom/mediaQuery/mediaQuery.js">
+        <metrics statements="13" coveredstatements="13" conditionals="7" coveredconditionals="7" methods="3" coveredmethods="2"/>
+        <line num="20" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="31" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="dom.whichAnimationEnd">
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="whichAnimationEnd.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/dom/whichAnimationEnd/whichAnimationEnd.js">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="28" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="dom.whichTransitionEnd">
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="whichTransitionEnd.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/dom/whichTransitionEnd/whichTransitionEnd.js">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="28" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="function.after">
+      <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="after.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/function/after/after.js">
+        <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="27" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="function.ary">
+      <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="ary.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/function/ary/ary.js">
+        <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="28" count="18" type="stmt"/>
+        <line num="29" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="18" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="function.before">
+      <metrics statements="13" coveredstatements="13" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <file name="before.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/function/before/before.js">
+        <metrics statements="13" coveredstatements="13" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="40" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="44" count="10" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="function.compose">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <file name="compose.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/function/compose/compose.js">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="27" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="31" count="11" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="function.curry">
+      <metrics statements="9" coveredstatements="9" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
+      <file name="curry.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/function/curry/curry.js">
+        <metrics statements="9" coveredstatements="9" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="function.debounce">
+      <metrics statements="13" coveredstatements="13" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
+      <file name="debounce.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/function/debounce/debounce.js">
+        <metrics statements="13" coveredstatements="13" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
+        <line num="22" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="25" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="12" type="stmt"/>
+        <line num="32" count="12" type="cond" truecount="4" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="12" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="function.flip">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="flip.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/function/flip/flip.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="function.negate">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="negate.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/function/negate/negate.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="39" count="6" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="function.once">
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="once.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/function/once/once.js">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="function.partial">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="partial.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/function/partial/partial.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="function.partialRight">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="partialRight.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/function/partialRight/partialRight.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="function.pipe">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <file name="pipe.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/function/pipe/pipe.js">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="31" count="11" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="function.throttle">
+      <metrics statements="13" coveredstatements="13" conditionals="9" coveredconditionals="8" methods="3" coveredmethods="3"/>
+      <file name="throttle.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/function/throttle/throttle.js">
+        <metrics statements="13" coveredstatements="13" conditionals="9" coveredconditionals="8" methods="3" coveredmethods="3"/>
+        <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="function.unary">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="unary.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/function/unary/unary.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isArray">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="isArray.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isArray/isArray.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isArrayLike">
+      <metrics statements="5" coveredstatements="5" conditionals="10" coveredconditionals="9" methods="1" coveredmethods="1"/>
+      <file name="isArrayLike.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isArrayLike/isArrayLike.js">
+        <metrics statements="5" coveredstatements="5" conditionals="10" coveredconditionals="9" methods="1" coveredmethods="1"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="50" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="9" type="cond" truecount="6" falsecount="0"/>
+        <line num="60" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isArrayLikeObject">
+      <metrics statements="5" coveredstatements="5" conditionals="11" coveredconditionals="10" methods="1" coveredmethods="1"/>
+      <file name="isArrayLikeObject.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isArrayLikeObject/isArrayLikeObject.js">
+        <metrics statements="5" coveredstatements="5" conditionals="11" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="50" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="9" type="cond" truecount="7" falsecount="0"/>
+        <line num="61" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isBoolean">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="isBoolean.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isBoolean/isBoolean.js">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="2" type="cond" truecount="3" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isDate">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="isDate.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isDate/isDate.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isElement">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="isElement.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isElement/isElement.js">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="2" type="cond" truecount="3" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isEmail">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="isEmail.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isEmail/isEmail.js">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="44" count="8" type="stmt"/>
+        <line num="46" count="8" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isEmpty">
+      <metrics statements="12" coveredstatements="12" conditionals="14" coveredconditionals="14" methods="1" coveredmethods="1"/>
+      <file name="isEmpty.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isEmpty/isEmpty.js">
+        <metrics statements="12" coveredstatements="12" conditionals="14" coveredconditionals="14" methods="1" coveredmethods="1"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="39" type="stmt"/>
+        <line num="60" count="39" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="64" count="37" type="cond" truecount="4" falsecount="0"/>
+        <line num="65" count="6" type="stmt"/>
+        <line num="68" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="69" count="5" type="stmt"/>
+        <line num="72" count="26" type="cond" truecount="4" falsecount="0"/>
+        <line num="73" count="4" type="stmt"/>
+        <line num="76" count="22" type="cond" truecount="2" falsecount="0"/>
+        <line num="79" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isEven">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="isEven.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isEven/isEven.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isFalse">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="isFalse.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isFalse/isFalse.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isFalsy">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="isFalsy.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isFalsy/isFalsy.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="34" count="10" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isFiniteNum">
+      <metrics statements="5" coveredstatements="5" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <file name="isFiniteNum.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isFiniteNum/isFiniteNum.js">
+        <metrics statements="5" coveredstatements="5" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="8" type="stmt"/>
+        <line num="39" count="8" type="cond" truecount="5" falsecount="0"/>
+        <line num="44" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isFlatArray">
+      <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="isFlatArray.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isFlatArray/isFlatArray.js">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="29" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isFunction">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="isFunction.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isFunction/isFunction.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="18" count="13" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isHexColor">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="isHexColor.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isHexColor/isHexColor.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isHexadecimal">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="isHexadecimal.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isHexadecimal/isHexadecimal.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isInteger">
+      <metrics statements="5" coveredstatements="5" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <file name="isInteger.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isInteger/isInteger.js">
+        <metrics statements="5" coveredstatements="5" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="10" type="stmt"/>
+        <line num="49" count="10" type="cond" truecount="5" falsecount="0"/>
+        <line num="54" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isIterable">
+      <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="isIterable.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isIterable/isIterable.js">
+        <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="16" type="cond" truecount="4" falsecount="0"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="41" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="45" count="12" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isMap">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="isMap.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isMap/isMap.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isNaN">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="isNaN.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isNaN/isNaN.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="15" type="stmt"/>
+        <line num="35" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isNull">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="isNull.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isNull/isNull.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isNullish">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="isNullish.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isNullish/isNullish.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isNumber">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="isNumber.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isNumber/isNumber.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isObject">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="isObject.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isObject/isObject.js">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="18" type="cond" truecount="3" falsecount="0"/>
+        <line num="63" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isObjectLike">
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="isObjectLike.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isObjectLike/isObjectLike.js">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="58" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="60" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isOdd">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="isOdd.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isOdd/isOdd.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isPlainObject">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="isPlainObject.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isPlainObject/isPlainObject.js">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="13" type="stmt"/>
+        <line num="57" count="6" type="stmt"/>
+        <line num="59" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="62" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isPrimitive">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="isPrimitive.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isPrimitive/isPrimitive.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="9" type="stmt"/>
+        <line num="51" count="11" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isPromise">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="isPromise.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isPromise/isPromise.js">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="35" count="18" type="cond" truecount="3" falsecount="0"/>
+        <line num="40" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isRegexp">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="isRegexp.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isRegexp/isRegexp.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isSafeInteger">
+      <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="isSafeInteger.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isSafeInteger/isSafeInteger.js">
+        <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="40" count="9" type="stmt"/>
+        <line num="43" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isSet">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="isSet.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isSet/isSet.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isString">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="isString.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isString/isString.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isSymbol">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="isSymbol.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isSymbol/isSymbol.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isTrue">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="isTrue.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isTrue/isTrue.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isTruthy">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="isTruthy.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isTruthy/isTruthy.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="34" count="10" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isUndefined">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="isUndefined.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isUndefined/isUndefined.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isWeakMap">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="isWeakMap.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isWeakMap/isWeakMap.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="is.isWeakSet">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="isWeakSet.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/is/isWeakSet/isWeakSet.js">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="number.average">
+      <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <file name="average.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/number/average/average.js">
+        <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="18" type="stmt"/>
+        <line num="35" count="18" type="stmt"/>
+        <line num="36" count="18" type="stmt"/>
+        <line num="38" count="18" type="cond" truecount="4" falsecount="0"/>
+        <line num="39" count="9" type="stmt"/>
+        <line num="40" count="9" type="stmt"/>
+        <line num="43" count="18" type="stmt"/>
+        <line num="44" count="66" type="stmt"/>
+        <line num="46" count="66" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="34" type="stmt"/>
+        <line num="48" count="34" type="stmt"/>
+        <line num="52" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="number.clamp">
+      <metrics statements="27" coveredstatements="27" conditionals="35" coveredconditionals="35" methods="1" coveredmethods="1"/>
+      <file name="clamp.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/number/clamp/clamp.js">
+        <metrics statements="27" coveredstatements="27" conditionals="35" coveredconditionals="35" methods="1" coveredmethods="1"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="21" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="38" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="42" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="46" count="16" type="cond" truecount="5" falsecount="0"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="50" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="54" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="3" type="stmt"/>
+        <line num="58" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="62" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="66" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="70" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="74" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="78" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="82" count="3" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="number.degreesToRadians">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="degreesToRadians.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/number/degreesToRadians/degreesToRadians.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="number.inRange">
+      <metrics statements="5" coveredstatements="5" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <file name="inRange.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/number/inRange/inRange.js">
+        <metrics statements="5" coveredstatements="5" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="7" type="cond" truecount="5" falsecount="0"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="34" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="number.lerp">
+      <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="lerp.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/number/lerp/lerp.js">
+        <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="8" type="cond" truecount="5" falsecount="0"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="number.max">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="max.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/number/max/max.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="42" count="19" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="number.min">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="min.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/number/min/min.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="45" count="20" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="number.normalize">
+      <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="normalize.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/number/normalize/normalize.js">
+        <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="9" type="cond" truecount="5" falsecount="0"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="number.radiansToDegrees">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="radiansToDegrees.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/number/radiansToDegrees/radiansToDegrees.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="number.randomDist">
+      <metrics statements="12" coveredstatements="12" conditionals="12" coveredconditionals="11" methods="1" coveredmethods="1"/>
+      <file name="randomDist.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/number/randomDist/randomDist.js">
+        <metrics statements="12" coveredstatements="12" conditionals="12" coveredconditionals="11" methods="1" coveredmethods="1"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="21" count="9" type="cond" truecount="5" falsecount="0"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="25" count="6" type="cond" truecount="5" falsecount="0"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="200" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="number.randomInt">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="randomInt.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/number/randomInt/randomInt.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="number.randomRange">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="randomRange.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/number/randomRange/randomRange.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="number.roundToNearest">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="roundToNearest.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/number/roundToNearest/roundToNearest.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="number.roundToPlaces">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="roundToPlaces.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/number/roundToPlaces/roundToPlaces.js">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="11" type="cond" truecount="4" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="48" count="10" type="stmt"/>
+        <line num="50" count="10" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="object.get">
+      <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <file name="get.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/object/get/get.js">
+        <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="31" type="stmt"/>
+        <line num="29" count="31" type="stmt"/>
+        <line num="30" count="93" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="86" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="7" type="stmt"/>
+        <line num="37" count="31" type="cond" truecount="4" falsecount="0"/>
+        <line num="40" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="object.omit">
+      <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="omit.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/object/omit/omit.js">
+        <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="38" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="10" type="stmt"/>
+        <line num="41" count="15" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="object.pick">
+      <metrics statements="18" coveredstatements="18" conditionals="19" coveredconditionals="19" methods="1" coveredmethods="1"/>
+      <file name="pick.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/object/pick/pick.js">
+        <metrics statements="18" coveredstatements="18" conditionals="19" coveredconditionals="19" methods="1" coveredmethods="1"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="16" type="stmt"/>
+        <line num="34" count="16" type="stmt"/>
+        <line num="36" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="8" type="stmt"/>
+        <line num="48" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="52" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="56" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="60" count="6" type="stmt"/>
+        <line num="61" count="16" type="stmt"/>
+        <line num="62" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="66" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="67" count="10" type="stmt"/>
+        <line num="71" count="6" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="object.pickBy">
+      <metrics statements="15" coveredstatements="15" conditionals="20" coveredconditionals="20" methods="1" coveredmethods="1"/>
+      <file name="pickBy.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/object/pickBy/pickBy.js">
+        <metrics statements="15" coveredstatements="15" conditionals="20" coveredconditionals="20" methods="1" coveredmethods="1"/>
+        <line num="62" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="63" count="17" type="stmt"/>
+        <line num="64" count="17" type="stmt"/>
+        <line num="66" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="75" count="7" type="stmt"/>
+        <line num="78" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="82" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="86" count="8" type="stmt"/>
+        <line num="87" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="91" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="92" count="11" type="stmt"/>
+        <line num="96" count="8" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="object.trueTypeOf">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="trueTypeOf.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/object/trueTypeOf/trueTypeOf.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="39" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.camelCase">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="camelCase.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/camelCase/camelCase.js">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="48" count="11" type="stmt"/>
+        <line num="49" count="11" type="stmt"/>
+        <line num="51" count="11" type="stmt"/>
+        <line num="52" count="68" type="stmt"/>
+        <line num="53" count="68" type="stmt"/>
+        <line num="54" count="68" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="68" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.capitalize">
+      <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="capitalize.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/capitalize/capitalize.js">
+        <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="21" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="28" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.classnames">
+      <metrics statements="18" coveredstatements="18" conditionals="18" coveredconditionals="18" methods="1" coveredmethods="1"/>
+      <file name="classnames.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/classnames/classnames.js">
+        <metrics statements="18" coveredstatements="18" conditionals="18" coveredconditionals="18" methods="1" coveredmethods="1"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
+        <line num="31" count="8" type="stmt"/>
+        <line num="33" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="7" type="stmt"/>
+        <line num="38" count="48" type="stmt"/>
+        <line num="40" count="48" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="10" type="stmt"/>
+        <line num="44" count="38" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="32" type="cond" truecount="4" falsecount="0"/>
+        <line num="47" count="24" type="stmt"/>
+        <line num="48" count="21" type="cond" truecount="4" falsecount="0"/>
+        <line num="49" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="7" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.collapseWhitespace">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="collapseWhitespace.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/collapseWhitespace/collapseWhitespace.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.deburr">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="deburr.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/deburr/deburr.js">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="7" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.escapeHTML">
+      <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="escapeHTML.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/escapeHTML/escapeHTML.js">
+        <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="36" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="37" count="17" type="cond" truecount="1" falsecount="1"/>
+        <line num="41" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.escapeRegExp">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="escapeRegExp.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/escapeRegExp/escapeRegExp.js">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="22" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.kebabCase">
+      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="kebabCase.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/kebabCase/kebabCase.js">
+        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="50" count="13" type="stmt"/>
+        <line num="52" count="13" type="stmt"/>
+        <line num="53" count="47" type="cond" truecount="1" falsecount="1"/>
+        <line num="54" count="13" type="stmt"/>
+        <line num="55" count="13" type="stmt"/>
+        <line num="56" count="13" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.lines">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="lines.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/lines/lines.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.numberFormat">
+      <metrics statements="12" coveredstatements="12" conditionals="10" coveredconditionals="9" methods="1" coveredmethods="1"/>
+      <file name="numberFormat.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/numberFormat/numberFormat.js">
+        <metrics statements="12" coveredstatements="12" conditionals="10" coveredconditionals="9" methods="1" coveredmethods="1"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="34" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="38" count="4" type="cond" truecount="3" falsecount="1"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.pascalCase">
+      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="pascalCase.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/pascalCase/pascalCase.js">
+        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="45" count="12" type="stmt"/>
+        <line num="46" count="12" type="stmt"/>
+        <line num="48" count="12" type="stmt"/>
+        <line num="49" count="79" type="cond" truecount="2" falsecount="0"/>
+        <line num="50" count="77" type="stmt"/>
+        <line num="53" count="79" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.randomString">
+      <metrics statements="18" coveredstatements="18" conditionals="13" coveredconditionals="13" methods="1" coveredmethods="1"/>
+      <file name="randomString.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/randomString/randomString.js">
+        <metrics statements="18" coveredstatements="18" conditionals="13" coveredconditionals="13" methods="1" coveredmethods="1"/>
+        <line num="32" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="11" type="stmt"/>
+        <line num="35" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="39" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="43" count="8" type="stmt"/>
+        <line num="44" count="8" type="stmt"/>
+        <line num="46" count="8" type="stmt"/>
+        <line num="53" count="8" type="stmt"/>
+        <line num="54" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="12" type="stmt"/>
+        <line num="62" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="66" count="6" type="stmt"/>
+        <line num="67" count="56" type="stmt"/>
+        <line num="70" count="6" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.removePrefix">
+      <metrics statements="5" coveredstatements="5" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <file name="removePrefix.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/removePrefix/removePrefix.js">
+        <metrics statements="5" coveredstatements="5" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="5" type="cond" truecount="5" falsecount="0"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="30" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.removeSuffix">
+      <metrics statements="7" coveredstatements="7" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
+      <file name="removeSuffix.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/removeSuffix/removeSuffix.js">
+        <metrics statements="7" coveredstatements="7" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="6" type="cond" truecount="5" falsecount="0"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="31" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.snakeCase">
+      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="snakeCase.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/snakeCase/snakeCase.js">
+        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="47" count="11" type="stmt"/>
+        <line num="49" count="11" type="stmt"/>
+        <line num="50" count="38" type="cond" truecount="1" falsecount="1"/>
+        <line num="51" count="11" type="stmt"/>
+        <line num="52" count="11" type="stmt"/>
+        <line num="53" count="11" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.squash">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="squash.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/squash/squash.js">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="9" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.strip">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="strip.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/strip/strip.js">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.stripHTML">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="stripHTML.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/stripHTML/stripHTML.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.stripPunctuation">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="stripPunctuation.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/stripPunctuation/stripPunctuation.js">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.substringAfter">
+      <metrics statements="6" coveredstatements="6" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <file name="substringAfter.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/substringAfter/substringAfter.js">
+        <metrics statements="6" coveredstatements="6" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="39" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.substringBefore">
+      <metrics statements="6" coveredstatements="6" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <file name="substringBefore.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/substringBefore/substringBefore.js">
+        <metrics statements="6" coveredstatements="6" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="39" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.supplant">
+      <metrics statements="15" coveredstatements="14" conditionals="14" coveredconditionals="10" methods="2" coveredmethods="2"/>
+      <file name="supplant.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/supplant/supplant.js">
+        <metrics statements="15" coveredstatements="14" conditionals="14" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="38" count="6" type="stmt"/>
+        <line num="39" count="6" type="stmt"/>
+        <line num="42" count="6" type="stmt"/>
+        <line num="45" count="12" type="cond" truecount="1" falsecount="1"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="50" count="12" type="stmt"/>
+        <line num="55" count="6" type="cond" truecount="2" falsecount="2"/>
+        <line num="59" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.truncate">
+      <metrics statements="16" coveredstatements="16" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+      <file name="truncate.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/truncate/truncate.js">
+        <metrics statements="16" coveredstatements="16" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+        <line num="46" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="47" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="51" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="55" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="59" count="9" type="stmt"/>
+        <line num="61" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="69" count="7" type="stmt"/>
+        <line num="70" count="7" type="stmt"/>
+        <line num="72" count="7" type="stmt"/>
+        <line num="73" count="7" type="stmt"/>
+        <line num="75" count="7" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.unescapeHTML">
+      <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="unescapeHTML.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/unescapeHTML/unescapeHTML.js">
+        <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
+        <line num="37" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="38" count="17" type="cond" truecount="1" falsecount="1"/>
+        <line num="42" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="string.words">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="words.js" path="/Users/matheusdalia/Documents/Code/Auditoria/analysis_candidates/js-utils/packages/string/words/words.js">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="23" count="7" type="stmt"/>
+        <line num="24" count="7" type="stmt"/>
+        <line num="26" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
