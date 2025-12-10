@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
+  "reporters": ["json"],
+  "testRunner": "jest",
+  "coverageAnalysis": "perTest",
+  "jest": {
+    "configFile": "jest.config.json"
+  },
+  "mutate": [
+    "src/**/*.ts", 
+    "!src/**/*.test.ts",
+    "!src/**/__tests__/**/*.ts"
+  ]
+}
