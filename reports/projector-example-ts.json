@@ -659,6 +659,131 @@
           }
         },
         {
+          "id": "8",
+          "mutatorName": "EqualityOperator",
+          "replacement": "op !== \"rm\"",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: true\nReceived: false\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:6:38)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 39,
+              "line": 18
+            },
+            "start": {
+              "column": 28,
+              "line": 18
+            }
+          }
+        },
+        {
+          "id": "9",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: true\nReceived: false\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:6:38)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 39,
+              "line": 18
+            },
+            "start": {
+              "column": 35,
+              "line": 18
+            }
+          }
+        },
+        {
+          "id": "10",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: [\"foo\", \"bar\"]\nReceived: undefined\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:11:45)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 2,
+              "line": 27
+            },
+            "start": {
+              "column": 53,
+              "line": 21
+            }
+          }
+        },
+        {
+          "id": "11",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\n- Expected  - 1\n+ Received  + 0\n\n  Array [\n-   \"print\",\n    \"foo\",\n    \"bar\",\n  ]\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:13:47)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 38,
+              "line": 22
+            },
+            "start": {
+              "column": 9,
+              "line": 22
+            }
+          }
+        },
+        {
+          "id": "12",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\n- Expected  - 0\n+ Received  + 1\n\n  Array [\n+   \"add\",\n    \"foo\",\n    \"bar\",\n  ]\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:11:45)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 38,
+              "line": 22
+            },
+            "start": {
+              "column": 9,
+              "line": 22
+            }
+          }
+        },
+        {
           "id": "13",
           "mutatorName": "OptionalChaining",
           "replacement": "args[0]",
@@ -676,6 +801,356 @@
             "start": {
               "column": 28,
               "line": 22
+            }
+          }
+        },
+        {
+          "id": "14",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\n- Expected  - 0\n+ Received  + 1\n\n  Array [\n+   \"add\",\n    \"foo\",\n    \"bar\",\n  ]\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:11:45)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 6,
+              "line": 24
+            },
+            "start": {
+              "column": 40,
+              "line": 22
+            }
+          }
+        },
+        {
+          "id": "3",
+          "mutatorName": "LogicalOperator",
+          "replacement": "op === \"add\" && op === \"rm\"",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: true\nReceived: false\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:5:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 39,
+              "line": 18
+            },
+            "start": {
+              "column": 12,
+              "line": 18
+            }
+          }
+        },
+        {
+          "id": "0",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: true\nReceived: undefined\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:5:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 2,
+              "line": 19
+            },
+            "start": {
+              "column": 58,
+              "line": 17
+            }
+          }
+        },
+        {
+          "id": "15",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: [\"foo\", \"bar\"]\nReceived: true\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:11:45)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 36,
+              "line": 23
+            },
+            "start": {
+              "column": 16,
+              "line": 23
+            }
+          }
+        },
+        {
+          "id": "4",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: true\nReceived: false\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:5:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 24,
+              "line": 18
+            },
+            "start": {
+              "column": 12,
+              "line": 18
+            }
+          }
+        },
+        {
+          "id": "1",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: false\nReceived: true\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:7:41)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 39,
+              "line": 18
+            },
+            "start": {
+              "column": 12,
+              "line": 18
+            }
+          }
+        },
+        {
+          "id": "5",
+          "mutatorName": "EqualityOperator",
+          "replacement": "op !== \"add\"",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: true\nReceived: false\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:5:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 24,
+              "line": 18
+            },
+            "start": {
+              "column": 12,
+              "line": 18
+            }
+          }
+        },
+        {
+          "id": "2",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: true\nReceived: false\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:5:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 39,
+              "line": 18
+            },
+            "start": {
+              "column": 12,
+              "line": 18
+            }
+          }
+        },
+        {
+          "id": "6",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: true\nReceived: false\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:5:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 24,
+              "line": 18
+            },
+            "start": {
+              "column": 19,
+              "line": 18
+            }
+          }
+        },
+        {
+          "id": "7",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: true\nReceived: false\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:6:38)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 39,
+              "line": 18
+            },
+            "start": {
+              "column": 28,
+              "line": 18
+            }
+          }
+        },
+        {
+          "id": "16",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: [\"foo\", \"bar\"]\nReceived: false\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:11:45)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 36,
+              "line": 23
+            },
+            "start": {
+              "column": 16,
+              "line": 23
+            }
+          }
+        },
+        {
+          "id": "17",
+          "mutatorName": "LogicalOperator",
+          "replacement": "args?.slice(1) && []",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\n- Expected  - 4\n+ Received  + 1\n\n- Array [\n-   \"foo\",\n-   \"bar\",\n- ]\n+ Array []\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:11:45)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 36,
+              "line": 23
+            },
+            "start": {
+              "column": 16,
+              "line": 23
+            }
+          }
+        },
+        {
+          "id": "18",
+          "mutatorName": "MethodExpression",
+          "replacement": "args",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\n- Expected  - 0\n+ Received  + 1\n\n  Array [\n+   \"add\",\n    \"foo\",\n    \"bar\",\n  ]\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:11:45)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 30,
+              "line": 23
+            },
+            "start": {
+              "column": 16,
+              "line": 23
+            }
+          }
+        },
+        {
+          "id": "22",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: [\"print\", \"foo\", \"bar\"]\nReceived: false\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:13:47)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 22,
+              "line": 26
+            },
+            "start": {
+              "column": 12,
+              "line": 26
             }
           }
         },
@@ -701,6 +1176,56 @@
           }
         },
         {
+          "id": "21",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: [\"print\", \"foo\", \"bar\"]\nReceived: true\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:13:47)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 22,
+              "line": 26
+            },
+            "start": {
+              "column": 12,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "25",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: 1\nReceived: undefined\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:15:49)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 2,
+              "line": 35
+            },
+            "start": {
+              "column": 58,
+              "line": 29
+            }
+          }
+        },
+        {
           "id": "26",
           "mutatorName": "OptionalChaining",
           "replacement": "args[0]",
@@ -718,6 +1243,156 @@
             "start": {
               "column": 13,
               "line": 30
+            }
+          }
+        },
+        {
+          "id": "23",
+          "mutatorName": "LogicalOperator",
+          "replacement": "args && []",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\n- Expected  - 5\n+ Received  + 1\n\n- Array [\n-   \"print\",\n-   \"foo\",\n-   \"bar\",\n- ]\n+ Array []\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:13:47)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 22,
+              "line": 26
+            },
+            "start": {
+              "column": 12,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "28",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: 1\nReceived: 0\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:15:49)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 15,
+              "line": 31
+            },
+            "start": {
+              "column": 10,
+              "line": 31
+            }
+          }
+        },
+        {
+          "id": "29",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "case \"rm\":",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: 2\nReceived: 0\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:16:48)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 40,
+              "line": 32
+            },
+            "start": {
+              "column": 5,
+              "line": 32
+            }
+          }
+        },
+        {
+          "id": "27",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "case \"add\":",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: 1\nReceived: 2\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:15:49)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 38,
+              "line": 31
+            },
+            "start": {
+              "column": 5,
+              "line": 31
+            }
+          }
+        },
+        {
+          "id": "31",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "default:",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: 0\nReceived: undefined\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:17:51)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 37,
+              "line": 33
+            },
+            "start": {
+              "column": 5,
+              "line": 33
+            }
+          }
+        },
+        {
+          "id": "30",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: 2\nReceived: 0\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/config.ts:16:48)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 14,
+              "line": 32
+            },
+            "start": {
+              "column": 10,
+              "line": 32
             }
           }
         }
@@ -1169,6 +1844,338 @@
           }
         },
         {
+          "id": "76",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: \"bar\"\nReceived: undefined\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:9:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 3,
+          "killedBy": [
+            "0"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 6,
+              "line": 46
+            },
+            "start": {
+              "column": 47,
+              "line": 19
+            }
+          }
+        },
+        {
+          "id": "80",
+          "mutatorName": "OptionalChaining",
+          "replacement": "this.data.projector[currentPath][key]",
+          "statusReason": "TypeError: Cannot read properties of undefined (reading 'foo')\n    at Projector.getValue (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/projector.ts:85:82)\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:7:22)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 3,
+          "killedBy": [
+            "0"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 66,
+              "line": 32
+            },
+            "start": {
+              "column": 27,
+              "line": 32
+            }
+          }
+        },
+        {
+          "id": "82",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: \"bar\"\nReceived: undefined\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:9:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 3,
+          "killedBy": [
+            "0"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 22,
+              "line": 33
+            },
+            "start": {
+              "column": 17,
+              "line": 33
+            }
+          }
+        },
+        {
+          "id": "77",
+          "mutatorName": "BooleanLiteral",
+          "replacement": "false",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: \"bar\"\nReceived: undefined\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:9:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 3,
+          "killedBy": [
+            "0"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 20,
+              "line": 30
+            },
+            "start": {
+              "column": 16,
+              "line": 30
+            }
+          }
+        },
+        {
+          "id": "81",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: \"true\"\nReceived: undefined\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:48:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 3,
+          "killedBy": [
+            "2"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 22,
+              "line": 33
+            },
+            "start": {
+              "column": 17,
+              "line": 33
+            }
+          }
+        },
+        {
+          "id": "78",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: \"bar\"\nReceived: undefined\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:9:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 3,
+          "killedBy": [
+            "0"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 20,
+              "line": 30
+            },
+            "start": {
+              "column": 16,
+              "line": 30
+            }
+          }
+        },
+        {
+          "id": "79",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Hit limit reached (1403/1400)",
+          "status": "Timeout",
+          "static": false,
+          "coveredBy": [
+            "0",
+            "1",
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 10,
+              "line": 43
+            },
+            "start": {
+              "column": 22,
+              "line": 30
+            }
+          }
+        },
+        {
+          "id": "83",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: \"bar\"\nReceived: undefined\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:9:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 3,
+          "killedBy": [
+            "0"
+          ],
+          "coveredBy": [
+            "0",
+            "1",
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 14,
+              "line": 36
+            },
+            "start": {
+              "column": 24,
+              "line": 33
+            }
+          }
+        },
+        {
+          "id": "85",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "Hit limit reached (802/800)",
+          "status": "Timeout",
+          "static": false,
+          "coveredBy": [
+            "0",
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 41,
+              "line": 39
+            },
+            "start": {
+              "column": 17,
+              "line": 39
+            }
+          }
+        },
+        {
+          "id": "87",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Hit limit reached (202/200)",
+          "status": "Timeout",
+          "static": false,
+          "coveredBy": [
+            "0",
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 14,
+              "line": 41
+            },
+            "start": {
+              "column": 43,
+              "line": 39
+            }
+          }
+        },
+        {
+          "id": "84",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: \"true\"\nReceived: undefined\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:48:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 3,
+          "killedBy": [
+            "2"
+          ],
+          "coveredBy": [
+            "0",
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 41,
+              "line": 39
+            },
+            "start": {
+              "column": 17,
+              "line": 39
+            }
+          }
+        },
+        {
+          "id": "93",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: undefined\nReceived: \"true\"\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:52:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "2"
+          ],
+          "coveredBy": [
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 6,
+              "line": 62
+            },
+            "start": {
+              "column": 36,
+              "line": 57
+            }
+          }
+        },
+        {
+          "id": "92",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "TypeError: Cannot set properties of undefined (setting 'foo')\n    at Projector.setValue (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/projector.ts:124:18)\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:8:15)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 2,
+          "killedBy": [
+            "0"
+          ],
+          "coveredBy": [
+            "0"
+          ],
+          "location": {
+            "end": {
+              "column": 10,
+              "line": 52
+            },
+            "start": {
+              "column": 22,
+              "line": 50
+            }
+          }
+        },
+        {
           "id": "90",
           "mutatorName": "ConditionalExpression",
           "replacement": "true",
@@ -1186,6 +2193,232 @@
             "start": {
               "column": 13,
               "line": 50
+            }
+          }
+        },
+        {
+          "id": "89",
+          "mutatorName": "BooleanLiteral",
+          "replacement": "values",
+          "statusReason": "TypeError: Cannot set properties of undefined (setting 'foo')\n    at Projector.setValue (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/projector.ts:124:18)\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:8:15)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 2,
+          "killedBy": [
+            "0"
+          ],
+          "coveredBy": [
+            "0"
+          ],
+          "location": {
+            "end": {
+              "column": 20,
+              "line": 50
+            },
+            "start": {
+              "column": 13,
+              "line": 50
+            }
+          }
+        },
+        {
+          "id": "91",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "TypeError: Cannot set properties of undefined (setting 'foo')\n    at Projector.setValue (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/projector.ts:124:18)\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:8:15)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 2,
+          "killedBy": [
+            "0"
+          ],
+          "coveredBy": [
+            "0"
+          ],
+          "location": {
+            "end": {
+              "column": 20,
+              "line": 50
+            },
+            "start": {
+              "column": 13,
+              "line": 50
+            }
+          }
+        },
+        {
+          "id": "86",
+          "mutatorName": "EqualityOperator",
+          "replacement": "nextPath !== currentPath",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: \"true\"\nReceived: undefined\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:48:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 3,
+          "killedBy": [
+            "2"
+          ],
+          "coveredBy": [
+            "0",
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 41,
+              "line": 39
+            },
+            "start": {
+              "column": 17,
+              "line": 39
+            }
+          }
+        },
+        {
+          "id": "88",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: \"bar\"\nReceived: undefined\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:9:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 2,
+          "killedBy": [
+            "0"
+          ],
+          "coveredBy": [
+            "0"
+          ],
+          "location": {
+            "end": {
+              "column": 6,
+              "line": 55
+            },
+            "start": {
+              "column": 48,
+              "line": 48
+            }
+          }
+        },
+        {
+          "id": "94",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "statusReason": "TypeError: Cannot convert undefined or null to object\n    at Projector.removeValue (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/projector.ts:138:25)\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:46:15)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "2"
+          ],
+          "coveredBy": [
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 19,
+              "line": 59
+            },
+            "start": {
+              "column": 13,
+              "line": 59
+            }
+          }
+        },
+        {
+          "id": "95",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: undefined\nReceived: \"true\"\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:52:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "2"
+          ],
+          "coveredBy": [
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 19,
+              "line": 59
+            },
+            "start": {
+              "column": 13,
+              "line": 59
+            }
+          }
+        },
+        {
+          "id": "111",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "TypeError: Cannot read properties of undefined (reading 'getValue')\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:7:22)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 2,
+          "killedBy": [
+            "0"
+          ],
+          "coveredBy": [
+            "0"
+          ],
+          "location": {
+            "end": {
+              "column": 6,
+              "line": 87
+            },
+            "start": {
+              "column": 42,
+              "line": 85
+            }
+          }
+        },
+        {
+          "id": "96",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toEqual(expected) // deep equality\n\nExpected: undefined\nReceived: \"true\"\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:52:39)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)\n    at jestAdapter (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 1,
+          "killedBy": [
+            "2"
+          ],
+          "coveredBy": [
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 10,
+              "line": 61
+            },
+            "start": {
+              "column": 21,
+              "line": 59
+            }
+          }
+        },
+        {
+          "id": "112",
+          "mutatorName": "ObjectLiteral",
+          "replacement": "{}",
+          "statusReason": "TypeError: Cannot read properties of undefined (reading '/foo/bar/baz')\n    at Projector.getValue (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/projector.ts:84:55)\n    at Object.<anonymous> (/Users/tiagol./Developer/testes-mutation/projector-example-ts/.stryker-tmp/sandbox-J4ruEf/src/__tests__/projector.ts:7:22)\n    at Promise.then.completed (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:218:40)\n    at _runTest (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/tiagol./Developer/testes-mutation/projector-example-ts/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)",
+          "status": "Killed",
+          "static": false,
+          "testsCompleted": 2,
+          "killedBy": [
+            "0"
+          ],
+          "coveredBy": [
+            "0"
+          ],
+          "location": {
+            "end": {
+              "column": 50,
+              "line": 86
+            },
+            "start": {
+              "column": 35,
+              "line": 86
             }
           }
         }
