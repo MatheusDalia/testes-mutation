@@ -15,7 +15,7 @@ This guide outlines the standard procedure for adding and running Stryker mutati
 Navigate to the project directory and install Stryker and the Jest runner as development dependencies:
 
 ```bash
-npm i && npm install --save-dev @stryker-mutator/core @stryker-mutator/jest-runner
+bun i && bun add --save-dev @stryker-mutator/core @stryker-mutator/jest-runner
 ```
 
 ### 2. Configure Stryker
