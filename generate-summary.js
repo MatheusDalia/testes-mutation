@@ -28,15 +28,13 @@ try {
   let filesWithSurvivors = 0;
 
   for (const [fileName, fileData] of Object.entries(report.files)) {
-    const survivors = fileData.mutants.filter(m => m.status === 'Survived' || m.status === 'NoCoverage');
-    
-    if (survivors.length > 0) {
+    if (fileData.mutants.length > 0) {
       summary.files[fileName] = {
         language: fileData.language,
         // Source is omitted to reduce size
-        mutants: survivors
+        mutants: fileData.mutants
       };
-      survivingMutants += survivors.length;
+      survivingMutants += fileData.mutants.length;
       filesWithSurvivors++;
     }
     totalMutants += fileData.mutants.length;

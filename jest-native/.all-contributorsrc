@@ -1,0 +1,83 @@
+{
+  "projectName": "jest-native",
+  "projectOwner": "testing-library",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "bcarroll22",
+      "name": "Brandon Carroll",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11020406?v=4",
+      "profile": "https://github.com/bcarroll22",
+      "contributions": [
+        "code",
+        "doc",
+        "infra",
+        "test"
+      ]
+    },
+    {
+      "login": "SantiMA10",
+      "name": "Santi",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7255298?v=4",
+      "profile": "http://santiagomartin.dev",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "marnusw",
+      "name": "Marnus Weststrate",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/971499?v=4",
+      "profile": "https://github.com/marnusw",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Shywim",
+      "name": "Matthieu Harlé",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1584563?v=4",
+      "profile": "https://github.com/Shywim",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "acatalina",
+      "name": "Alvaro Catalina",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23233812?v=4",
+      "profile": "https://github.com/acatalina",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ilkeryilmaz",
+      "name": "ilker Yılmaz",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1588236?v=4",
+      "profile": "http://www.ilkeryilmaz.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "donovanhiland",
+      "name": "Donovan Hiland",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/17991396?v=4",
+      "profile": "https://github.com/donovanhiland",
+      "contributions": [
+        "code",
+        "test"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true
+}
